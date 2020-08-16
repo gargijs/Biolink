@@ -1,0 +1,12 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Baloo Da 2', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Baloo Da 2', cursive;
+}
