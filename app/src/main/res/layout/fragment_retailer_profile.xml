@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBF5F5F5"
+    tools:context=".RetailerProfileFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/Tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tools"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="@drawable/input_field" />
+
+
+    <ScrollView
+        android:id="@+id/Sview"
+        android:layout_below="@+id/Tool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/biolink_tool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIOLINK"
+            android:textColor="@color/shade_black"
+          android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_below="@+id/biolink_tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:drawableLeft="@drawable/bio_icon"
+            android:text="What is Biolink?"
+            android:textSize="18dp"
+            android:drawablePadding="10dp"
+            android:textColor="#000000"
+            android:id="@+id/what"
+            android:background="@drawable/input_field"/>
+
+
+            <TextView
+                android:layout_below="@+id/what"
+                android:id="@+id/Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/help"
+                android:text="Help Center"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+
+                android:background="@drawable/input_field"/>
+
+
+            <TextView
+                android:layout_below="@+id/Help"
+                android:id="@+id/Link_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LINK TOOLS"
+                android:textColor="@color/shade_black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_below="@+id/Link_tool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/whatsapp"
+                android:text="Generate WhatsApp link"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:id="@+id/whatsApp"
+                android:background="@drawable/input_field"/>
+
+
+            <TextView
+                android:layout_below="@+id/whatsApp"
+                android:id="@+id/PhoneLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/phone"
+                android:text="Generate Phone Link"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/input_field"/>
+            <TextView
+                android:layout_below="@+id/PhoneLink"
+                android:id="@+id/EmailLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/email"
+                android:text="Generate Email Link"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/input_field"/>
+            <TextView
+                android:layout_below="@+id/EmailLink"
+                android:id="@+id/TelegramLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/telegram"
+                android:text="Generate Telegram Link"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/input_field"/>
+
+            <TextView
+                android:layout_below="@+id/TelegramLink"
+                android:id="@+id/Share_tool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHARE TOOLS"
+                android:textColor="@color/shade_black"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                />
+
+            <TextView
+                android:layout_below="@+id/Share_tool"
+                android:id="@+id/Add_insta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/insta"
+                android:text="Add link to your Instagram Bio"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/input_field"/>
+            <TextView
+                android:layout_below="@+id/Add_insta"
+                android:id="@+id/Add_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/twitter"
+                android:text="Put link in your Twitter Profile"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/input_field"/>
+            <TextView
+                android:layout_below="@+id/Add_twitter"
+                android:id="@+id/Add_Facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:drawableLeft="@drawable/fb"
+                android:text="Add link to your Facebook Profile"
+                android:textSize="18dp"
+                android:drawablePadding="10dp"
+                android:textColor="#000000"
+                android:background="@drawable/input_field"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    </RelativeLayout>
+
+</FrameLayout>

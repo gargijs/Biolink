@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".RetailerDashboardFragment">
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+
+<RelativeLayout
+    android:id="@+id/upper"
+    android:layout_width="match_parent"
+    android:background="@color/signup_btn"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biolink"
+        android:id="@+id/AddBio"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:drawableRight="@drawable/ic_baseline_add_to_photos_24"
+        android:drawableTint="#FFFFFF"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AddBio"
+        android:background="@drawable/input_field"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:hint="Search Link Here ..."
+        android:textColor="@color/shade_black"
+        android:drawablePadding="10dp"
+        />
+
+
+
+</RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/middle"
+        android:background="@color/back"
+        android:layout_below="@+id/upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <GridLayout
+            android:rowCount="3"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/views"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/view"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp"
+            android:layout_margin="12dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/link"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/link"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/graph"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/graph"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/preview"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/preview"/>
+
+                </LinearLayout>
+
+
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/back"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/middle">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="FREQUENTLY USED"
+            android:id="@+id/frequents"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/shade_black"
+
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frequents"
+            android:textSize="20dp"
+            android:id="@+id/AddLink"
+            android:background="@drawable/input_field"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/signin_btn"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/addlink"
+            android:layout_marginRight="20dp"
+            android:text="Add Link"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditLink"
+            android:layout_below="@+id/AddLink"
+            android:textSize="20dp"
+            android:background="@drawable/input_field"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/signin_btn"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/editlink"
+            android:layout_marginRight="20dp"
+            android:text="Edit Links"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Share"
+            android:layout_below="@+id/EditLink"
+            android:textSize="20dp"
+            android:background="@drawable/input_field"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/signin_btn"
+            android:drawablePadding="10dp"
+
+            android:drawableLeft="@drawable/sharelink"
+            android:layout_marginRight="20dp"
+            android:text="Share BioLink Profile"/>
+
+    </RelativeLayout>
+</RelativeLayout>   
+</FrameLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/back"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:src="@drawable/biolink"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textColor="@color/signin_btn"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/progress_bar"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Name..."
+                android:background="@drawable/input_field"
+                android:textColorHint="@color/grey"
+                android:id="@+id/name_ET"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColor="@color/signin_btn"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email..."
+                android:background="@drawable/input_field"
+                android:textColorHint="@color/grey"
+                android:id="@+id/email_ET"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColor="@color/signin_btn"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter username..."
+                android:background="@drawable/input_field"
+                android:textColorHint="@color/grey"
+                android:id="@+id/username_ET"
+                android:singleLine="true"
+                android:inputType="text"
+                android:textColor="@color/signin_btn"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter password..."
+                android:background="@drawable/input_field"
+                android:textColorHint="@color/grey"
+                android:id="@+id/password_ET"
+                android:layout_marginTop="20dp"
+                android:singleLine="true"
+                android:textColor="@color/signin_btn"
+                android:inputType="textPassword"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:id="@+id/registerBtn"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:background="@drawable/signup_btn"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/signup_btn"
+                android:layout_margin="50dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? Login!!"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:background="@drawable/signin_btn"
+                android:textColor="#ffffff"
+                android:id="@+id/loginBtn"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

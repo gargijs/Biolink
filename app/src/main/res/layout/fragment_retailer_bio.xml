@@ -1,0 +1,168 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@+id/upper"
+        android:layout_width="match_parent"
+        android:background="@color/signup_btn"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_notifications_black_24dp"
+            android:drawableTint="@color/white"
+            android:padding="20dp"
+            android:drawableRight="@drawable/ic_baseline_settings_24"
+            android:layout_height="wrap_content"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/profile_image"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_image"/>
+
+
+        <TextView
+           android:layout_below="@+id/profile_image"
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"
+            android:id="@+id/name"
+            android:textColor="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:text="Name"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/upper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/Sview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/biolink_tool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PERSONAL"
+                    android:textColor="@color/shade_black"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    />
+                <TextView
+                    android:layout_below="@+id/biolink_tool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:drawableLeft="@drawable/email"
+                    android:text="Email: ritmo.js@gmail.com"
+                    android:textSize="18dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#000000"
+                    android:id="@+id/what"
+                    android:background="@drawable/input_field"/>
+
+
+                <TextView
+                    android:layout_below="@+id/what"
+                    android:id="@+id/Help"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:drawableLeft="@drawable/username"
+                    android:text="Username: @ritmo.js"
+                    android:textSize="18dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#000000"
+
+                    android:background="@drawable/input_field"/>
+
+
+                <TextView
+                    android:layout_below="@+id/Help"
+                    android:id="@+id/Link_tool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BIOLINK"
+                    android:textColor="@color/shade_black"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/Link_tool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:drawableLeft="@drawable/domain"
+                    android:text="Subdomain: biolink.com"
+                    android:textSize="18dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#000000"
+                    android:id="@+id/whatsApp"
+                    android:background="@drawable/input_field"/>
+
+
+                <TextView
+                    android:layout_below="@+id/whatsApp"
+                    android:id="@+id/PhoneLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:drawableLeft="@drawable/diamond"
+                    android:text="Membership : Basic"
+                    android:textSize="18dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/input_field"/>
+                <TextView
+                    android:layout_below="@+id/PhoneLink"
+                    android:id="@+id/EmailLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:drawableLeft="@drawable/nessage"
+                    android:text="My messages"
+                    android:textSize="18dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/input_field"/>
+                <TextView
+                    android:layout_below="@+id/EmailLink"
+                    android:id="@+id/TelegramLink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginRight="18dp"
+                    android:drawableLeft="@drawable/logout"
+                    android:text="Logout"
+                    android:textSize="18dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/input_field"/>
+
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

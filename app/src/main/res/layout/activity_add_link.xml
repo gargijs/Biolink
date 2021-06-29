@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/grey"
+    android:layout_height="match_parent"
+    tools:context=".AddLink">
+
+
+
+            <TextView
+                android:id="@+id/Add_Link_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input_field"
+                android:text="Add Link"
+                android:textColor="@color/shade_black"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/Add_Link_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        android:background="@color/grey"
+        app:cardCornerRadius="6dp"
+
+        android:layout_margin="12dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Button_text"
+            android:text="Button text"
+            android:textColor="@color/shade_black"
+            android:textSize="18dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"/>
+        <EditText
+            android:layout_below="@+id/Button_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:padding="5dp"
+            android:id="@+id/text_input"
+            android:background="@drawable/input"
+            />
+
+            <TextView
+                android:layout_below="@+id/text_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Button_link"
+                android:text="Button Link"
+                android:textColor="@color/shade_black"
+                android:textSize="18dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/text_link"
+                android:layout_below="@+id/Button_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:padding="5dp"
+                android:hint="http://"
+                android:background="@drawable/input"
+                />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:id="@+id/Save"
+    android:padding="10dp"
+    android:text="Save"
+    android:textAllCaps="false"
+    android:textSize="20dp"
+    android:textColor="@color/white"
+    android:background="@color/signup_btn"
+    android:layout_below="@+id/text_link"/>
+            <ProgressBar
+                android:layout_below="@+id/Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/progress_add"
+
+                android:visibility="gone"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

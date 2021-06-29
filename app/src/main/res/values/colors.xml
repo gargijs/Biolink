@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="shade_black">#403B3B</color>
+    <color name="white">#ffffff</color>
+    <color name="card1">#ff6666</color>
+    <color name="card2">#66ff66</color>
+    <color name="card3">#f6f6f6</color>
+
+<color name="grey">#C0C0C0</color>
+
+    //Drawables
+    <color name="signin_btn">#3B3E51</color>
+    <color name="input">#Ffffff</color>
+    <color name="back">#F5F5F5</color>
+    <color name="signup_btn">#189047</color>
+
+
+
+
+
+    <item name="green" type="color">#8BC34A</item>
+    <item name="orange" type="color">#D1A522</item>
+    <item name="red" type="color">#E34439</item>
+    <item name="darkblue" type="color">#03A9F4</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/green</item>
+        <item>@color/orange</item>
+        <item>@color/red</item>
+        <item>@color/darkblue</item>
+    </integer-array>
+</resources>
