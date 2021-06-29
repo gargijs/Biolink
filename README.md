@@ -1,60 +1,44 @@
-<p align="center">
-  <a>
-    <img src="./images/biolink.png" width = "1400px"/>
-  </a>
-</p>
-<h1 align="center">
-  biolink
-</h1>
+# Biolink
+<div align="center">
+<h2> Multiple Links in a single URL</h2>
+</div>
+
+![Biolink](biolink.gif)
+Instagram only gives you one link in bio. You can add multiple links for your Instagram Bio and optimise your Instagram traffic by using biolink.
+Use your biolink Link as your business card , and display all your channels: Online Store, blogs, websites, other social media (fb, line, twitter, youtube, etc.), WhatsApp links, telephone links, chat line links and so on. 
+
+
+
+# SCREENSHOTS
+<div align="center">
+<img src="screentshots.png"/> 
+</div>
+
+
+
+
+# -FEATURES-
+
+### ONE BIO LINK & MULTIPLE LINKS
+-Create a link with the biolink App that is cool and brandable. 
+-Use it on Instagram and no need to change the link again.Offer multiple choices to your followers when they click on your Bio link.
+-Share all your Social Media profiles and important links with just one url.
+-Help your followers discover all of your recent content
+
+### QUCIK &EASY TO USE
+-Add your links and retrieve your unique URL. It literally takes 1 minute to get started.
+-Open IG, go to "Edit your Instagram profile", paste your new URL and you're done.
+-If you ever need to change your links, come back to biolink and edit them without the need to change your URL on your IG profile.
+
+### MORE TRAFFIC 
+-Add links in Instagram Bio, optimized landing page.
+-Get valuable insights including clicks, pageviews.
+-Share more than one social handle in one link (URL)
+-Know exactly the power of one link having all links.
 
  
-</p>
-
-## What is Biolink?
-* Add multiple links of all your💌 social media accounts at one place and share them with ease.📱 Offer more contact options to your followers
-
-
-
-# How to Access Biolink?
-
-* Visit https://biolink-ritmojs.herokuapp.com/
-
-
-
-# ScreenShots
-<img src="./images/Home.png">
-<img src="./images/Home2.png">
-<img src="./images/Home3.png">
-<img src="./images/signup.png">
-
-
-<img src="./images/dashboard.png">
-
-
-
-# How to Use Zest?
-
-* Step-1: Visit https://biolink-ritmojs.herokuapp.com/
-* Step-2: Click on the Signup Button (if you are new user or else just signin) .
-* Step-3: Now you are on Signup Page ,Fill up the required details.
-* Step-4: Click signup Button.
-* Step-5: An alert with the successful message will appear.
-* Step-6: Click on the Signin Link in the alert above.
-* Step-7: Now Signin .
-* Step-8: Now you are on your Dashboard ,here you can add Links and see the status of your previous added links.
-* Step-9: Now after adding Links visit  https://biolink-ritmojs.herokuapp.com/
-```bash
- yourbiolinkID 
-```
-
-
-
-# ThankYou 
+# AVAILABLE ON
 <p align="center">
-<img src="./images/logo.png" width="400" height ="150">
+    <a src="https://play.google.com/store/apps/developer?id=Retical&hl=en&gl=US"><img src="ps.png" alt="playstore" width="200" height="100" /></a>
 </p>
-
-<h1 align="center">
-   © biolink 2020
-</h1>
 
