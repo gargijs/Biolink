@@ -39,6 +39,6 @@ Use your biolink Link as your business card , and display all your channels: Onl
  
 # AVAILABLE ON
 <p align="center">
-    <a src="https://play.google.com/store/apps/developer?id=Retical&hl=en&gl=US"><img src="ps.png" alt="playstore" width="200" height="100" /></a>
+    <a src="https://play.google.com/store/apps/details?id=com.retical.biolink"><img src="ps.png" alt="playstore" width="200" height="100" /></a>
 </p>
 
